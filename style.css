@@ -1,6 +1,41 @@
 ﻿body {
-    background-color: rgb(146,193,233)
+    background-color: rgb(146,193,233);
+    text-align: center;
+    color: white;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.p1 {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: default;
+    user-select: none;
 }
 p {
-    text-align: center;
+    cursor: default;
+}
+.nohover {
+    cursor: default;
+    user-select: none;
+}
+.manga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 555px;
+}
+.a1  {
+    color: white;
+    text-decoration: none;
+}
+.a1:visited  {
+    color: white;
+}
+.a1:hover {
+    color: rgb(239,185,192);
 }
